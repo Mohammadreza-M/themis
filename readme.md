@@ -124,7 +124,7 @@ Themis client will manage the users's mutations by row and invoke methods of The
      ```
      <property>
        <name>hbase.coprocessor.user.region.classes</name>
-       <value>org.apache.hadoop.hbase.themis.cp.ThemisProtocolImpl,org.apache.hadoop.hbase.themis.cp.ThemisScanObserver,org.apache.hadoop.hbase.regionserver.ThemisRegionObserver</value>
+       <value>org.apache.hadoop.hbase.themis.cp.ThemisEndpoint,org.apache.hadoop.hbase.themis.cp.ThemisScanObserver,org.apache.hadoop.hbase.regionserver.ThemisRegionObserver</value>
      </property>
      <property>
        <name>hbase.coprocessor.master.classes</name>
